@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="XButton" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G6B-Cf-xXe" customClass="X_Button" customModule="XButton" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="336" width="103" height="84"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="84" id="HIP-Rn-rbs"/>
+                                    <constraint firstAttribute="width" constant="103" id="cPU-j3-TNL"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <state key="normal" title="微信" image="wechat_c">
+                                    <color key="titleColor" red="0.53333333329999999" green="0.53333333329999999" blue="0.53333333329999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" tag="12" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GMA-s9-Yb7" customClass="X_Button" customModule="XButton" customModuleProvider="target">
+                                <rect key="frame" x="207" y="336" width="103" height="84"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="84" id="0to-6X-pZK"/>
+                                    <constraint firstAttribute="width" constant="103" id="sQ7-FE-zqz"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <state key="normal" title="QQ" image="qq_c">
+                                    <color key="titleColor" red="0.53333333329999999" green="0.53333333329999999" blue="0.53333333329999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" tag="13" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Fd-pj-hLq" customClass="X_Button" customModule="XButton" customModuleProvider="target">
+                                <rect key="frame" x="311" y="336" width="103" height="84"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="103" id="Cjj-oj-d5d"/>
+                                    <constraint firstAttribute="height" constant="84" id="bj7-C4-09D"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <state key="normal" title="QZone" image="qzone_c">
+                                    <color key="titleColor" red="0.53333333329999999" green="0.53333333329999999" blue="0.53333333329999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zhr-Gq-78V" customClass="X_Button" customModule="XButton" customModuleProvider="target">
+                                <rect key="frame" x="104" y="336" width="103" height="84"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="103" id="FE6-qR-jHk"/>
+                                    <constraint firstAttribute="height" constant="84" id="fuw-8o-fF4"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <state key="normal" title="朋友圈" image="wechat_moment_c">
+                                    <color key="titleColor" red="0.53333333329999999" green="0.53333333329999999" blue="0.53333333329999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="3Fd-pj-hLq" firstAttribute="leading" secondItem="GMA-s9-Yb7" secondAttribute="trailing" constant="1" id="50t-w2-Exc"/>
+                            <constraint firstItem="Zhr-Gq-78V" firstAttribute="leading" secondItem="G6B-Cf-xXe" secondAttribute="trailing" constant="1" id="8R4-7d-rRd"/>
+                            <constraint firstItem="GMA-s9-Yb7" firstAttribute="baseline" secondItem="G6B-Cf-xXe" secondAttribute="baseline" id="EEp-UU-yjG"/>
+                            <constraint firstItem="GMA-s9-Yb7" firstAttribute="leading" secondItem="Zhr-Gq-78V" secondAttribute="trailing" id="MCg-x2-j8C"/>
+                            <constraint firstItem="GMA-s9-Yb7" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="316" id="ZH1-0O-cQ5"/>
+                            <constraint firstItem="GMA-s9-Yb7" firstAttribute="baseline" secondItem="3Fd-pj-hLq" secondAttribute="baseline" id="bJ8-ci-2oV"/>
+                            <constraint firstItem="GMA-s9-Yb7" firstAttribute="baseline" secondItem="Zhr-Gq-78V" secondAttribute="baseline" id="ggt-7P-JXP"/>
+                            <constraint firstAttribute="trailing" secondItem="GMA-s9-Yb7" secondAttribute="trailing" constant="104" id="qUw-Zu-0dU"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <outlet property="QQButton" destination="GMA-s9-Yb7" id="R1j-Sg-hzN"/>
+                        <outlet property="QZoneButton" destination="3Fd-pj-hLq" id="bRY-ZB-Yca"/>
+                        <outlet property="wechatButton" destination="G6B-Cf-xXe" id="sLr-9o-ljt"/>
+                        <outlet property="wechatQButton" destination="Zhr-Gq-78V" id="KQM-eS-gSr"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="340" y="429"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="qq_c" width="40" height="40"/>
+        <image name="qzone_c" width="40" height="40"/>
+        <image name="wechat_c" width="40" height="40"/>
+        <image name="wechat_moment_c" width="40" height="40"/>
+    </resources>
+</document>
